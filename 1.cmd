@@ -9,7 +9,7 @@ git add .
 ::  git commit -m "%commitMessage%" 
 git push origin master
 @echo 已经完成,
-
+pause
 SET daoTime=60
 :dao
 set /a daoTime=daoTime-1
